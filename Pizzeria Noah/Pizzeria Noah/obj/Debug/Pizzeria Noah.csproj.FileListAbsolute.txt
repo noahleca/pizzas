@@ -1,0 +1,10 @@
+C:\Users\cv\source\repos\Pizzeria Noah\Pizzeria Noah\bin\Debug\Pizzeria Noah.exe.config
+C:\Users\cv\source\repos\Pizzeria Noah\Pizzeria Noah\bin\Debug\Pizzeria Noah.exe
+C:\Users\cv\source\repos\Pizzeria Noah\Pizzeria Noah\bin\Debug\Pizzeria Noah.pdb
+C:\Users\cv\source\repos\Pizzeria Noah\Pizzeria Noah\obj\Debug\Pizzeria Noah.csproj.AssemblyReference.cache
+C:\Users\cv\source\repos\Pizzeria Noah\Pizzeria Noah\obj\Debug\Pizzeria_Noah.Properties.Resources.resources
+C:\Users\cv\source\repos\Pizzeria Noah\Pizzeria Noah\obj\Debug\Pizzeria_Noah.Vista.Form1.resources
+C:\Users\cv\source\repos\Pizzeria Noah\Pizzeria Noah\obj\Debug\Pizzeria Noah.csproj.GenerateResource.cache
+C:\Users\cv\source\repos\Pizzeria Noah\Pizzeria Noah\obj\Debug\Pizzeria Noah.csproj.CoreCompileInputs.cache
+C:\Users\cv\source\repos\Pizzeria Noah\Pizzeria Noah\obj\Debug\Pizzeria Noah.exe
+C:\Users\cv\source\repos\Pizzeria Noah\Pizzeria Noah\obj\Debug\Pizzeria Noah.pdb
