@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="pizzeriaModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="comanda">
+    <Key>
+      <PropertyRef Name="numCda" />
+    </Key>
+    <Property Name="numCda" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="horaCda" Type="DateTime" Precision="3" />
+    <Property Name="qntIng" Type="Int32" Nullable="false" />
+    <Property Name="massaFeta" Type="Boolean" Nullable="false" />
+    <Property Name="qntIngPosats" Type="Int32" Nullable="false" />
+    <Property Name="horaFinal" Type="DateTime" Precision="3" />
+  </EntityType>
+  <EntityContainer Name="pizzeriaEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="comanda" EntityType="Self.comanda" />
+  </EntityContainer>
+</Schema>

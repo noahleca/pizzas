@@ -19,28 +19,27 @@ namespace Pizzeria_Noah.Modelo
             db = new pizzeriaEntities();
         }
 
-        public List<comanda> GetComandas()
+        public List<comanda> GetComandas(DateTime data)
         {
-            return db.comanda.OrderBy(a => a.numCda).ToList();
+            return db.comanda.Where(a => a.horaCda >= data).OrderBy(a => a.numCda).ToList();
         }
         public void PostComanda(comanda c)
         {
             db.comanda.Add(c);
             db.SaveChanges();
         }
-        public async void PrepararPizza(comanda c)
+        public void UpdateComanda(comanda c)
         {
-            await Task.Delay(30000);
-            c.massaFeta = true;
-
-            for (int i = 0; i < c.qntIng; i++)
+            var comanda = db.comanda.FirstOrDefault(p => p.numCda == c.numCda);
+            if (comanda != null)
             {
-                await Task.Delay(5000);
-                c.qntIngPosats++;
+                comanda.massaFeta = c.massaFeta;
+                comanda.qntIngPosats = c.qntIngPosats;
+                comanda.horaFinal = c.horaFinal;
+
+                db.SaveChanges();
             }
 
-            await Task.Delay(450000);
-            c.horaFinal = DateTime.Now;
         }
     }
 }

@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="pizzeriaModelStoreContainer" CdmEntityContainer="pizzeriaEntities">
+    <EntitySetMapping Name="comanda">
+      <EntityTypeMapping TypeName="pizzeriaModel.comanda">
+        <MappingFragment StoreEntitySet="comanda">
+          <ScalarProperty Name="numCda" ColumnName="numCda" />
+          <ScalarProperty Name="horaCda" ColumnName="horaCda" />
+          <ScalarProperty Name="qntIng" ColumnName="qntIng" />
+          <ScalarProperty Name="massaFeta" ColumnName="massaFeta" />
+          <ScalarProperty Name="qntIngPosats" ColumnName="qntIngPosats" />
+          <ScalarProperty Name="horaFinal" ColumnName="horaFinal" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

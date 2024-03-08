@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="pizzeriaModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="comanda">
+    <Key>
+      <PropertyRef Name="numCda" />
+    </Key>
+    <Property Name="numCda" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="horaCda" Type="datetime" />
+    <Property Name="qntIng" Type="int" Nullable="false" />
+    <Property Name="massaFeta" Type="bit" Nullable="false" />
+    <Property Name="qntIngPosats" Type="int" Nullable="false" />
+    <Property Name="horaFinal" Type="datetime" />
+  </EntityType>
+  <EntityContainer Name="pizzeriaModelStoreContainer">
+    <EntitySet Name="comanda" EntityType="Self.comanda" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

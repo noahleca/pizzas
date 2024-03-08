@@ -18,6 +18,10 @@ namespace Pizzeria_Noah.Controlador
         List<comanda> listaPedido = new List<comanda>();
         int velocidadSimulacion = 1;
 
+        int HACER_MASA = 30000;
+        int PONER_INGREDIENTE = 5000;
+        int COCINAR_PIZZA = 450000;
+
         public Controlador()
         {
             f = new Form1();
@@ -35,15 +39,21 @@ namespace Pizzeria_Noah.Controlador
 
         private async void ButtonComanda_Click(object sender, EventArgs e)
         {
+            DateTime now = DateTime.Now;
+            HACER_MASA = 30000 / velocidadSimulacion;
+            PONER_INGREDIENTE = 5000 / velocidadSimulacion;
+            COCINAR_PIZZA = 450000 / velocidadSimulacion;
             if (int.TryParse(f.textBoxIngredients.Text, out int numIngredientes) && numIngredientes >= 0)
             {
                 comanda c = new comanda
                 {
+                    horaCda = now,
                     qntIng = numIngredientes
                 };
-                listaPedido.Add(c);
-                await Task.Run(() => r.PrepararPizza(c));
                 r.PostComanda(c);
+                PrepararComanda(c);
+                f.dataGridView.DataSource = r.GetComandas(horaInici);
+
             }
         }
 
@@ -55,6 +65,7 @@ namespace Pizzeria_Noah.Controlador
                 this.velocidadSimulacion = velocidadSimulacion;
                 horaIniciSimulacion = DateTime.Now;
                 LoadTimers();
+                f.buttonInici.Enabled = false;
             }
             else
             {
@@ -93,10 +104,42 @@ namespace Pizzeria_Noah.Controlador
             f.labelTempsSimulat.Text = tiempoSimulado.ToString(@"hh\:mm\:ss");
         }
 
-        public async void PrepararComanda()
+        public async void PrepararComanda(comanda c)
         {
-            await Task.Delay(30000);
-            
+            string tiempoLabel = f.labelTempsSimulat.Text;
+            TimeSpan tiempoSimuladoInicial = TimeSpan.ParseExact(tiempoLabel, @"hh\:mm\:ss", null);
+
+            await Task.Delay(HACER_MASA);
+            c.massaFeta = true;
+            r.UpdateComanda(c);
+            f.dataGridView.DataSource = r.GetComandas(horaInici);
+
+            for (int i = 0; i < c.qntIng; i++)
+            {
+
+                await Task.Delay(PONER_INGREDIENTE);
+                c.qntIngPosats++;
+                r.UpdateComanda(c);
+                f.dataGridView.DataSource = r.GetComandas(horaInici);
+
+            }
+
+            await Task.Delay(COCINAR_PIZZA);
+            DateTime? inicioPedido = c.horaCda;
+
+            tiempoLabel = f.labelTempsSimulat.Text;
+
+            TimeSpan tiempoSimuladoFinal = TimeSpan.ParseExact(tiempoLabel, @"hh\:mm\:ss", null);
+
+
+            TimeSpan tiempoTranscurrido = tiempoSimuladoFinal - tiempoSimuladoInicial;
+
+            DateTime? horaFinalPedido = inicioPedido + tiempoTranscurrido;
+            c.horaFinal = horaFinalPedido;
+            r.UpdateComanda(c);
+            f.dataGridView.DataSource = r.GetComandas(horaInici);
+
+
         }
     }
 }

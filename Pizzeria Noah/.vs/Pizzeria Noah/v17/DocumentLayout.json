@@ -1,0 +1,95 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\nlece\\source\\repos\\ConsoleApp1\\pizzas\\Pizzeria Noah\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5ECA1F09-8F1F-4F87-B190-EF6D6A092AE1}|Pizzeria Noah\\Pizzeria Noah.csproj|C:\\Users\\nlece\\source\\repos\\ConsoleApp1\\pizzas\\Pizzeria Noah\\pizzeria noah\\modelo\\controlador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5ECA1F09-8F1F-4F87-B190-EF6D6A092AE1}|Pizzeria Noah\\Pizzeria Noah.csproj|solutionrelative:pizzeria noah\\modelo\\controlador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5ECA1F09-8F1F-4F87-B190-EF6D6A092AE1}|Pizzeria Noah\\Pizzeria Noah.csproj|c:\\users\\nlece\\source\\repos\\consoleapp1\\pizzas\\pizzeria noah\\pizzeria noah\\modelo\\repositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5ECA1F09-8F1F-4F87-B190-EF6D6A092AE1}|Pizzeria Noah\\Pizzeria Noah.csproj|solutionrelative:pizzeria noah\\modelo\\repositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5ECA1F09-8F1F-4F87-B190-EF6D6A092AE1}|Pizzeria Noah\\Pizzeria Noah.csproj|C:\\Users\\nlece\\source\\repos\\ConsoleApp1\\pizzas\\Pizzeria Noah\\pizzeria noah\\controlador\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5ECA1F09-8F1F-4F87-B190-EF6D6A092AE1}|Pizzeria Noah\\Pizzeria Noah.csproj|solutionrelative:pizzeria noah\\controlador\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5ECA1F09-8F1F-4F87-B190-EF6D6A092AE1}|Pizzeria Noah\\Pizzeria Noah.csproj|C:\\Users\\nlece\\source\\repos\\ConsoleApp1\\pizzas\\Pizzeria Noah\\pizzeria noah\\vista\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{5ECA1F09-8F1F-4F87-B190-EF6D6A092AE1}|Pizzeria Noah\\Pizzeria Noah.csproj|solutionrelative:pizzeria noah\\vista\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 344,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\nlece\\source\\repos\\ConsoleApp1\\pizzas\\Pizzeria Noah\\Pizzeria Noah\\Controlador\\Program.cs",
+              "RelativeDocumentMoniker": "Pizzeria Noah\\Controlador\\Program.cs",
+              "ToolTip": "C:\\Users\\nlece\\source\\repos\\ConsoleApp1\\pizzas\\Pizzeria Noah\\Pizzeria Noah\\Controlador\\Program.cs",
+              "RelativeToolTip": "Pizzeria Noah\\Controlador\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-07T23:44:34.704Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Repositorio.cs",
+              "DocumentMoniker": "C:\\Users\\nlece\\source\\repos\\ConsoleApp1\\pizzas\\Pizzeria Noah\\Pizzeria Noah\\Modelo\\Repositorio.cs",
+              "RelativeDocumentMoniker": "Pizzeria Noah\\Modelo\\Repositorio.cs",
+              "ToolTip": "C:\\Users\\nlece\\source\\repos\\ConsoleApp1\\pizzas\\Pizzeria Noah\\Pizzeria Noah\\Modelo\\Repositorio.cs",
+              "RelativeToolTip": "Pizzeria Noah\\Modelo\\Repositorio.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAAAA0AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-07T23:44:34.704Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Controlador.cs",
+              "DocumentMoniker": "C:\\Users\\nlece\\source\\repos\\ConsoleApp1\\pizzas\\Pizzeria Noah\\Pizzeria Noah\\Modelo\\Controlador.cs",
+              "RelativeDocumentMoniker": "Pizzeria Noah\\Modelo\\Controlador.cs",
+              "ToolTip": "C:\\Users\\nlece\\source\\repos\\ConsoleApp1\\pizzas\\Pizzeria Noah\\Pizzeria Noah\\Modelo\\Controlador.cs",
+              "RelativeToolTip": "Pizzeria Noah\\Modelo\\Controlador.cs",
+              "ViewState": "AQIAAHAAAAAAAAAAAAAcwIAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-07T23:44:34.987Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Form1.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\nlece\\source\\repos\\ConsoleApp1\\pizzas\\Pizzeria Noah\\Pizzeria Noah\\Vista\\Form1.cs",
+              "RelativeDocumentMoniker": "Pizzeria Noah\\Vista\\Form1.cs",
+              "ToolTip": "C:\\Users\\nlece\\source\\repos\\ConsoleApp1\\pizzas\\Pizzeria Noah\\Pizzeria Noah\\Vista\\Form1.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Pizzeria Noah\\Vista\\Form1.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-07T23:44:35.202Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
