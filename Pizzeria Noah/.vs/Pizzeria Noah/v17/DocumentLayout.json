@@ -3,11 +3,11 @@
   "WorkspaceRootPath": "C:\\Users\\nlece\\source\\repos\\ConsoleApp1\\pizzas\\Pizzeria Noah\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5ECA1F09-8F1F-4F87-B190-EF6D6A092AE1}|Pizzeria Noah\\Pizzeria Noah.csproj|C:\\Users\\nlece\\source\\repos\\ConsoleApp1\\pizzas\\Pizzeria Noah\\pizzeria noah\\modelo\\controlador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5ECA1F09-8F1F-4F87-B190-EF6D6A092AE1}|Pizzeria Noah\\Pizzeria Noah.csproj|c:\\users\\nlece\\source\\repos\\consoleapp1\\pizzas\\pizzeria noah\\pizzeria noah\\modelo\\controlador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5ECA1F09-8F1F-4F87-B190-EF6D6A092AE1}|Pizzeria Noah\\Pizzeria Noah.csproj|solutionrelative:pizzeria noah\\modelo\\controlador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5ECA1F09-8F1F-4F87-B190-EF6D6A092AE1}|Pizzeria Noah\\Pizzeria Noah.csproj|c:\\users\\nlece\\source\\repos\\consoleapp1\\pizzas\\pizzeria noah\\pizzeria noah\\modelo\\repositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5ECA1F09-8F1F-4F87-B190-EF6D6A092AE1}|Pizzeria Noah\\Pizzeria Noah.csproj|C:\\Users\\nlece\\source\\repos\\ConsoleApp1\\pizzas\\Pizzeria Noah\\pizzeria noah\\modelo\\repositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5ECA1F09-8F1F-4F87-B190-EF6D6A092AE1}|Pizzeria Noah\\Pizzeria Noah.csproj|solutionrelative:pizzeria noah\\modelo\\repositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -26,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 344,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -35,6 +35,10 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
             {
               "$type": "Document",
@@ -46,8 +50,7 @@
               "RelativeToolTip": "Pizzeria Noah\\Controlador\\Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-07T23:44:34.704Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-07T23:44:34.704Z"
             },
             {
               "$type": "Document",
@@ -59,8 +62,7 @@
               "RelativeToolTip": "Pizzeria Noah\\Modelo\\Repositorio.cs",
               "ViewState": "AQIAAA0AAAAAAAAAAAAAAA0AAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-07T23:44:34.704Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-07T23:44:34.704Z"
             },
             {
               "$type": "Document",
@@ -70,7 +72,7 @@
               "RelativeDocumentMoniker": "Pizzeria Noah\\Modelo\\Controlador.cs",
               "ToolTip": "C:\\Users\\nlece\\source\\repos\\ConsoleApp1\\pizzas\\Pizzeria Noah\\Pizzeria Noah\\Modelo\\Controlador.cs",
               "RelativeToolTip": "Pizzeria Noah\\Modelo\\Controlador.cs",
-              "ViewState": "AQIAAHAAAAAAAAAAAAAcwIAAAAAAAAAA",
+              "ViewState": "AQIAAHgAAAAAAAAAAAAAAIUAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-07T23:44:34.987Z",
               "EditorCaption": ""
@@ -84,8 +86,7 @@
               "ToolTip": "C:\\Users\\nlece\\source\\repos\\ConsoleApp1\\pizzas\\Pizzeria Noah\\Pizzeria Noah\\Vista\\Form1.cs [Dise\u00F1o]",
               "RelativeToolTip": "Pizzeria Noah\\Vista\\Form1.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-07T23:44:35.202Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2024-03-07T23:44:35.202Z"
             }
           ]
         }
